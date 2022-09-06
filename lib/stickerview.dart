@@ -95,7 +95,7 @@ class StickerViewState extends State<StickerView> {
                         color: widget.backgroundColor ?? Colors.grey[200],
                       ),
                       height: widget.height ??
-                          MediaQuery.of(context).size.height * 1.0,
+                          MediaQuery.of(context).size.height * 0.7,
                       width: widget.width ?? MediaQuery.of(context).size.width,
                       child: Stack(fit: StackFit.expand, children: [
                         // background content
